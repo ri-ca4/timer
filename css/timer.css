@@ -1,0 +1,46 @@
+body{
+    background-color: #483d8b;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#timer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin: 2em auto;
+    padding: 2em;
+    border: 1px solid black;
+    border-radius: 5em;
+    background-color: aliceblue;
+}
+
+#display {
+    margin: 2em auto;
+}
+
+#clockFace {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#minutes, #seconds {
+    width: 45%;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: .5em;
+}
+
+button {
+    border: 1px solid black;
+    background-color: white;
+    border-radius: .5em;
+}
